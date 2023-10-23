@@ -5,7 +5,10 @@ int main(){
     int arrayOdd[]={1,2,3,4,5,6,7};
     int even = (sizeof(arrayEven)/sizeof(arrayEven[0]))/2;
     int odd = (sizeof(arrayOdd)/sizeof(arrayOdd[0]))/2 +1;
-    cout<<"Possible Even Arrays "<<even<<endl;
-    cout<<"Possible Odd Arrays "<<odd<<endl;
+    int i=1;
+    while(i<=even){
+        
+    }
+    
     return 0;
 }
