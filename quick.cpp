@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arrayEven[]={1,2,3,4};
-    int arrayOdd[]={1,2,3,4,5};
-    cout<<"Possible Arrays "<<sizeof(arrayEven)/sizeof(arrayEven[0])<<endl;
+    int arrayEven[]={1,2,3,4,5,6};
+    int arrayOdd[]={1,2,3,4,5,6,7};
+    int even = (sizeof(arrayEven)/sizeof(arrayEven[0]))/2;
+    int odd = (sizeof(arrayOdd)/sizeof(arrayOdd[0]))/2 +1;
+    cout<<"Possible Even Arrays "<<even<<endl;
+    cout<<"Possible Odd Arrays "<<odd<<endl;
     return 0;
 }
