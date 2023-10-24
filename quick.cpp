@@ -6,9 +6,13 @@ int main(){
     int even = (sizeof(arrayEven)/sizeof(arrayEven[0]))/2;
     int odd = (sizeof(arrayOdd)/sizeof(arrayOdd[0]))/2 +1;
     int i=1;
+    int mover=even;
     while(i<=even){
         int j=i*2;
-        
+        while(){
+            
+        }
+
     }
     
     return 0;
