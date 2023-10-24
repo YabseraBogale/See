@@ -7,6 +7,7 @@ int main(){
     int odd = (sizeof(arrayOdd)/sizeof(arrayOdd[0]))/2 +1;
     int i=1;
     while(i<=even){
+        int j=i*2;
         
     }
     
