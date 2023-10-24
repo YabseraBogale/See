@@ -1,3 +1,5 @@
+// to run this 
+// g++ -o quick quick.cpp && ./quick 
 #include<iostream>
 using namespace std;
 int main(){
