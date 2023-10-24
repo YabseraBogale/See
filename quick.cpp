@@ -11,9 +11,10 @@ int main(){
         int mover=even+i;
         while(j>0){
             j-=1;
-            cout<<"Array of Even length "<<arrayEven[mover]<<endl;
+            cout<<"Array of Even length "<<arrayEven[mover]<<" ";
             mover-=1;
         }
+        cout<endl;
         i+=1;
     }
     
