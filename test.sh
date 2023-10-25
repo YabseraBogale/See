@@ -1,1 +1,1 @@
-time g++ -o git testgit.cpp && ./git
+time python3 gitpy.py
