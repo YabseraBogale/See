@@ -1,1 +1,1 @@
-time ./git
+time python3 gitpy.py
