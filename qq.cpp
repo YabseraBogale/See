@@ -11,10 +11,12 @@ int arrayFilter(int a[], int begin,int end){
     return sum;    
 }
 string theNumberCanBeMadeWithTheArray(int a[],int number){
-        int odd=(sizeof(a)/sizeof(a[0]))/2 +1;
+        int odd=(sizeof(a)/sizeof(a[0]))/2;
         int counter=odd;
+        cout<<"sze Of: "<<sizeof(a)<<endl;
         for(int i=1;i<=odd;i++){
             int j=odd+i;
+            cout<<"cc: "<<a[counter]<<" jj: "<<a[j]<<endl;
             int sum=0;
             if(counter>=0){
                 sum=arrayFilter(a,counter,j);
@@ -29,7 +31,7 @@ string theNumberCanBeMadeWithTheArray(int a[],int number){
         return "false";
     }
 int main(){
-    int arrayOdd[]={1,2,3,4,5,6,7,8,9};
+    int arrayOdd[]={0,0,0,5,0,10,0,0};
     cout<<theNumberCanBeMadeWithTheArray(arrayOdd,15)<<endl;
     return 0;
 }
