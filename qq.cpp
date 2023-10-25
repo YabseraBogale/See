@@ -29,6 +29,7 @@ string theNumberCanBeMadeWithTheArray(int a[],int number){
         return "false";
     }
 int main(){
-    
+    int arrayOdd[]={1,2,3,4,5,6,7,8,9};
+    cout<<theNumberCanBeMadeWithTheArray(arrayOdd,15)<<endl;
     return 0;
 }
