@@ -51,6 +51,7 @@ class ArraySum{
                 counter-=1;
             }
             if(sum==number){
+                cout<<sum<<endl;
                 return "true";
             }
         
