@@ -15,7 +15,7 @@ int main(){
          result += buffer;
    }
    system("clear");
-   cout<<result.length<<endl;
+   cout<<result.length()<<endl;
     
     return 0;
 }
